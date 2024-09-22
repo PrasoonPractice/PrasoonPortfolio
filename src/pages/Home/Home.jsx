@@ -1,10 +1,15 @@
-import React from 'react'
+import React from 'react';
+import Hero from './Hero';
+import Goto from './Goto'
 
 function Home() {
   return (
-    <div>
-      Home
-    </div>
+    <>
+        <div className='w-full flex flex-col items-center justify-between'>
+            <Hero/>
+            <Goto/>
+        </div>
+    </>
   )
 }
 
